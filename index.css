@@ -10,6 +10,42 @@ body {
   a:visited {
     color: #00897b;
   }
+
+  .quotes {
+    width: 80vw;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+     
+  }
+
+ .card{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ }
+ 
+  .card:hover,.card-link:hover{
+    color: white;
+  }
+  .box-1:hover{
+background: linear-gradient(135deg, #e2a9e5 15%,#2b94e5 100%);
+  }
+  .box-2:hover{
+  background: linear-gradient(135deg, #e5c4a9 15%,#e5562b 100%);
+  }
+  .box-3:hover{
+background: linear-gradient(135deg, #632c65 15%,#56a5e2 100%);
+  }
+  .box-4:hover{
+    background: linear-gradient(135deg, #4b384c 15%,#da5de2 100%);
+  }
+  .box-5:hover{
+background: linear-gradient(135deg, #652c2f 15%,#e2568c 100%);
+  }
+  .box-6:hover {
+background: linear-gradient(135deg, #2c654d 15%,#d4e256 100%);
+  }
   
   .marginBox {
     margin-top: -150px;
@@ -20,7 +56,7 @@ body {
   .diagonalBox {
     background: #00897b;
     padding: 100px 0;
-    transform: skew(0deg, -6deg) translateY(-110px);
+    transform: skew(0deg, -7deg) translateY(-110px);
     position: relative;
   }
   
